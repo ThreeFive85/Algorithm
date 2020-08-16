@@ -8,7 +8,7 @@ priorities	            location	         return
 
 const printer = (priorities, location) => {
   let count = 1;
-  let targer_index = location;
+  let target_index = location;
   let first;
 
   while (priorities.length > 0) {
@@ -16,16 +16,16 @@ const printer = (priorities, location) => {
     if (priorities.some((value, idx) => value > first)) {
       priorities.push(first);
     } else {
-      if (targer_index === 0) {
+      if (target_index === 0) {
         break;
       } else {
         count++;
       }
     }
-    if (targer_index === 0) {
-      targer_index = priorities.length - 1;
+    if (target_index === 0) {
+      target_index = priorities.length - 1;
     } else {
-      targer_index--;
+      target_index--;
     }
   }
   return count;
