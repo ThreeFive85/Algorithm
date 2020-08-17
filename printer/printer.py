@@ -22,5 +22,5 @@ def printer(priorities, location):
     return count
 
 
-printer([2, 1, 3, 2], 2)
-printer([1, 1, 9, 1, 1, 1], 0)
+# printer([2, 1, 3, 2], 2)
+# printer([1, 1, 9, 1, 1, 1], 0)
