@@ -1,3 +1,4 @@
+# 문제 출처 : https://www.acmicpc.net/problem/11866
 
 from sys import stdin
 
@@ -14,4 +15,5 @@ while len(cal_list) > 0:
     result.append(str(pop_element))
 
 result = ", ".join(result)
+
 print(f"<{result}>")
