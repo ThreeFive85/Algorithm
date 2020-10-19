@@ -2,7 +2,7 @@ import unittest
 import descending_int
 
 
-class TestStrangeString(unittest.TestCase):
+class TestDescendingInt(unittest.TestCase):
 
     def test_descending_int1(self):
         result = descending_int.solution(123)
