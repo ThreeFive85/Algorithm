@@ -2,7 +2,7 @@ import unittest
 import collatz
 
 
-class TestGcdLcm(unittest.TestCase):
+class TestCollatz(unittest.TestCase):
 
     def test_collatz1(self):
         result = collatz.solution(6)
