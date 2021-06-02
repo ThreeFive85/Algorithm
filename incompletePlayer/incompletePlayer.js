@@ -33,7 +33,7 @@ const incompletePlayer = (participant, completion) => {
     }
   }
   //   console.log(myMap);
-  console.log(answer);
+  // console.log(answer);
   return answer;
 };
 
