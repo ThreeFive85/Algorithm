@@ -1,6 +1,6 @@
 // 문제 출처 : https://programmers.co.kr/learn/courses/30/lessons/42839?language=javascript
 
-function solution(numbers) {
+export const solution = (numbers) => {
     var answer = 0;
     let n = numbers.split('')
     let nums = new Set();
