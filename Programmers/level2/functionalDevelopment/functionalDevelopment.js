@@ -1,4 +1,6 @@
-function solution(progresses, speeds) {
+// https://programmers.co.kr/learn/courses/30/lessons/42586?language=javascript
+
+export const solution = (progresses, speeds) => {
     let answer = [];
     
     while(speeds.length > 0){
